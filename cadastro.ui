@@ -46,10 +46,10 @@ QLabel{
      <number>9</number>
     </property>
     <item>
-     <widget class="QFrame" name="left_container">
+     <widget class="QFrame" name="left_menu">
       <property name="maximumSize">
        <size>
-        <width>200</width>
+        <width>9</width>
         <height>16777215</height>
        </size>
       </property>
@@ -156,8 +156,8 @@ QPushButton{
               <rect>
                <x>0</x>
                <y>0</y>
-               <width>182</width>
-               <height>420</height>
+               <width>65</width>
+               <height>403</height>
               </rect>
              </property>
              <attribute name="label">
@@ -287,7 +287,7 @@ QPushButton{
               <rect>
                <x>0</x>
                <y>0</y>
-               <width>182</width>
+               <width>78</width>
                <height>420</height>
               </rect>
              </property>
@@ -375,7 +375,7 @@ border-color: rgb(255, 255, 255);</string>
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="icons_.qrc">
+             <iconset resource="icons.qrc">
               <normaloff>:/icons/icons/menu2.png</normaloff>:/icons/icons/menu2.png</iconset>
             </property>
             <property name="iconSize">
@@ -442,6 +442,9 @@ border-color: rgb(255, 255, 255);</string>
              <layout class="QVBoxLayout" name="verticalLayout_7">
               <item>
                <widget class="QLabel" name="logo">
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
                 <property name="text">
                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icons/icons/logo4.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                 </property>
@@ -951,7 +954,7 @@ QFrame{
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="icons_.qrc"/>
+  <include location="icons.qrc"/>
  </resources>
  <connections/>
 </ui>
